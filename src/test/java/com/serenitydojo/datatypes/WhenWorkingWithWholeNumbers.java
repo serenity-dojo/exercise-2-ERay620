@@ -11,6 +11,8 @@ public class WhenWorkingWithWholeNumbers {
     public void addingNumbersTogether() {
         int initialYear = 1985;
         int targetYear = 0;
+        int timeJump = 30;
+            targetYear = timeJump + initialYear;
 
         // TODO: create a new int variable called timeJump and assign it a value
         //  Next, add this variable to initialYear and assign the result to targetYear, so that targetYear is equal to 2015
